@@ -1,12 +1,9 @@
 /*
- * Filename: stinger_simple.c
- *
  * Description:
- * Version minimale de l'exploit "Stinger" en pur C.
- * Cet exploit récupère un token depuis un processus autoélevé, le duplique, ajuste son niveau
- * d'intégrité et utilise COM pour créer une tâche planifiée qui exécute une commande en tant que SYSTEM.
- * 
- * gcc exploit.c -o stinger.exe -ladvapi32 -lshell32 -luser32 -lole32 -ltaskschd -luuid -loleaut32
+ * Minimal version of the "Stinger" exploit in C.
+ 
+ * Compilation :
+ * gcc simply_stinger.c -o stinger.exe -ladvapi32 -lshell32 -luser32 -lole32 -ltaskschd -luuid -loleaut32
  */
 
 
